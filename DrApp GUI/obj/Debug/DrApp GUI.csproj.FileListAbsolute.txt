@@ -1,0 +1,36 @@
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.exe.config
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.exe
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.pdb
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.csprojResolveAssemblyReference.cache
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\Login_page.g.cs
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\App.g.cs
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.cache
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.lref
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\Login_page.baml
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.g.resources
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp_GUI.Properties.Resources.resources
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.csproj.GenerateResource.Cache
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.exe
+c:\users\talcore\documents\visual studio 2015\Projects\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.pdb
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.exe.config
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.exe
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.exe
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.pdb
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.csprojResolveAssemblyReference.cache
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\Login_page.g.cs
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\App.g.cs
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.cache
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.lref
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\Login_page.baml
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.g.resources
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp_GUI.Properties.Resources.resources
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.csproj.GenerateResource.Cache
+H:\Windows7\Documents\Visual Studio 2012\Projects\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.pdb
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.csprojResolveAssemblyReference.cache
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\Login_page.g.cs
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\Window1.g.cs
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\App.g.cs
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.cache
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI_MarkupCompile.lref
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\obj\Debug\DrApp GUI.exe
+C:\Users\Zahraa Al-Taee\Desktop\NET\DrApp GUI\DrApp GUI\DrApp GUI\bin\Debug\DrApp GUI.exe.config
