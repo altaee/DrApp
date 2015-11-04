@@ -1,0 +1,117 @@
+﻿<Window x:Class="DrApp_GUI.AddingAppointmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrApp_GUI"
+        mc:Ignorable="d"
+        Title="DrApp"  MinHeight="500" MinWidth="750" Icon="Resources/logo.png" Topmost="True">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="RoundCornerButton">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderBrush" Value="OrangeRed" />
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2,2,2,2" >
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="Red" />
+                            </Trigger>
+
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FFFFADAD" />
+                                <Setter Property="BorderBrush" Value="DarkRed" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="TextBox" x:Key="RoundCornerBox">
+            <Setter Property="Background" Value="#FFFFECEC" />
+            <Setter Property="BorderBrush" Value="OrangeRed" />
+            <Setter Property="TextBlock.TextAlignment" Value="Left" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2,2,2,2" >
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="Red" />
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="Red"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="False">
+                                <Setter Property="BorderBrush" Value="OrangeRed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="PersonalIDLabel" Content="ID" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch"/>
+            <Label x:Name="FromLabel" Content="From" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch"/>
+            <Label x:Name="ToLabel" Content="To" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch"/>
+            <Label x:Name="DurationLabel" Content="Duration" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch"/>
+            <Label x:Name="IssueLabel" Content="Issue" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch"/>
+            
+            <TextBox x:Name="PersonalIDTextBox" Grid.Row="0" Grid.Column="1" Margin="40,15" VerticalContentAlignment="Center" Style="{DynamicResource RoundCornerBox}" Background="White" />
+            <TextBox x:Name="FromTextBox" Grid.Row="1" Grid.Column="1" Margin="40,15" VerticalContentAlignment="Center" Style="{DynamicResource RoundCornerBox}" Background="White" />
+            <TextBox x:Name="ToTextBox" Grid.Row="2" Grid.Column="1" Margin="40,15" VerticalContentAlignment="Center" Style="{DynamicResource RoundCornerBox}" Background="White" />
+            <TextBox x:Name="DurationTextBox" Grid.Row="3" Grid.Column="1" Margin="40,15" VerticalContentAlignment="Center" Style="{DynamicResource RoundCornerBox}" Background="White" />
+            <TextBox x:Name="IssueTextBox" Grid.Row="4" Grid.Column="1" Margin="40,15" VerticalContentAlignment="Center" Style="{DynamicResource RoundCornerBox}" Background="White" />
+
+            <Grid Grid.Row="5" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="SearchButton" Grid.Column="0" Margin="30,20" Content="Search" Style="{DynamicResource RoundCornerButton}"/>
+                <Button x:Name="BackButton" Grid.Column="1" Margin="30,20" Content="Back" Style="{DynamicResource RoundCornerButton}"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1" Background="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="AssignButton"  Content="Assign" Style="{DynamicResource RoundCornerButton}" Grid.Row="2" Grid.Column="0" Margin="40,15" />
+            <Button x:Name="OpenScheduleButton"  Content="Open schedule" Grid.Row="2" Grid.Column="1" Style="{DynamicResource RoundCornerButton}" Margin="40,15" />
+            <Label x:Name="SearchLabel" Grid.Row="0" Grid.ColumnSpan="2" Content="Search results" VerticalAlignment="Top" Height="29" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" Width="279" Foreground="White" FontSize="16"/>
+        </Grid>
+    </Grid>
+</Window>
